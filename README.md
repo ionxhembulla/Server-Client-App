@@ -63,23 +63,3 @@ This application demonstrates several key concepts of multi-threading in a clien
    - The main thread handles user input and sends messages to the server.
 
 This design allows the server to handle multiple clients simultaneously without blocking, and each client can send and receive messages concurrently.
-
-## GitHub Repository
-
-### Cloning the Repository
-
-To clone this repository to your local machine, use the following command:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/multi-threaded-chat-app.git
-cd multi-threaded-chat-app
-```
-
-### Contributing
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature/your-feature`)
-6. Open a Pull Request
